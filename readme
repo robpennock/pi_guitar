@@ -1,0 +1,2 @@
+gcc  minimal_playback.c `opkg-config --libs alsa`
+g++ min_pb.c -lasound
